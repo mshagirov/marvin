@@ -1,0 +1,13 @@
+[project]
+name = "marvin"
+version = "0.1.0"
+description = "AI Agent in Python (boot.dev course)"
+readme = "README.md"
+authors = [
+    { name = "Murat Shagirov", email = "muratshagirov@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "google-genai==1.12.1",
+    "python-dotenv==1.1.0",
+]
